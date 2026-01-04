@@ -54,7 +54,36 @@ Le fichier `images/placeholder.jpg` est une image vide servant de modèle ou de 
 
 - **pdf/** : Placez ici le guide étudiant au format PDF
   - Exemple : `pdf/guide.pdf`
+## 🔐 Espaces utilisateurs (Dashboards)
 
+Le projet contient trois espaces sécurisés :
+
+### 👨‍🎓 Étudiant
+- Connexion
+- Tableau de bord étudiant
+
+### 👨‍🏫 Professeur
+- Connexion
+- Tableau de bord professeur
+
+### 🛠️ Administrateur
+- Connexion
+- Gestion des étudiants  
+- Gestion des professeurs  
+- Gestion des administrateurs  
+- Déconnexion sécurisée
+
+Les données sont gérées via **PHP + MySQL**  
+(fichier SQL inclu : `uni.sql`).
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **HTML / CSS / JavaScript**
+- **PHP**
+- **MySQL**
+- **InfinityFree / Wuaze** (hébergement)
 ## 🛠️ Instructions d’utilisation
 
 - Ajoutez vos images dans le dossier `images/` (logo, couverture, photos de clubs, graduation, etc.).
@@ -113,3 +142,4 @@ Le fichier `images/placeholder.jpg` est une image vide servant de modèle ou de 
 ---
 
 **Contact :** info@liu-mr.edu
+
